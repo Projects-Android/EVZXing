@@ -33,9 +33,9 @@ task uploadZxing(type: Upload) {
             repository(url: "http://nexus.sdp.nd/nexus/content/repositories/android-3rd/") {
                 authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
             }
-            pom.version = "1.0.0"
+            pom.version = "3.2.2"
             pom.artifactId = "core"
-            pom.groupId = "com.ev.zxing"
+            pom.groupId = "com.google.zxing"
         }
     }
 }
